@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Elsa" Version="2.0.0.159" />
+      <PackageReference Include="Elsa.Persistence.EntityFramework.Core" Version="2.0.0.159" />
+      <PackageReference Include="Elsa.Persistence.EntityFramework.MySql" Version="2.0.0.159" />
+      <PackageReference Include="Elsa.Persistence.EntityFramework.PostgreSql" Version="2.0.0.159" />
+      <PackageReference Include="Elsa.Persistence.EntityFramework.SqlServer" Version="2.0.0.159" />
+    </ItemGroup>
+
+
+
+</Project>

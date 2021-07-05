@@ -1,0 +1,4 @@
+.vs/
+bin/
+obj/
+Elsa.WebApp/elsa.sqlite.db
